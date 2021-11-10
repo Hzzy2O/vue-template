@@ -1,9 +1,34 @@
 {
-	"devDependencies": {
-		"@vitejs/plugin-legacy": "^1.6.2",
-		"@vitejs/plugin-vue": "^1.9.4",
-		"@vitejs/plugin-vue-jsx": "^1.2.0",
-		"typescript": "^4.4.4",
-		"vite": "^2.6.13"
-	}
+  "name": "vue-template",
+  "version": "1.0.0",
+  "author": {
+    "name": "hzzy",
+    "email": "capiiii@outlook.com",
+    "url": "https://github.com/Hzzy2O"
+  },
+  "scripts": {
+    "serve": "npm run dev",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "lodash-es": "^4.17.21",
+    "pinia": "^2.0.0-rc.10",
+    "vue": "^3.2.21",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.5",
+    "@vitejs/plugin-legacy": "^1.6.2",
+    "@vitejs/plugin-vue": "^1.9.4",
+    "@vitejs/plugin-vue-jsx": "^1.2.0",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-define-config": "^1.1.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "typescript": "^4.4.4",
+    "vite": "^2.6.13",
+    "vite-plugin-style-import": "^1.3.0"
+  }
 }
